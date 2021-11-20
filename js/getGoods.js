@@ -9,8 +9,6 @@ const getGoods = () => {
             })
     }
 
-    getData()
-
     links.forEach((link) => {
         link.addEventListener('click', (event) => {
             event.preventDefault()
